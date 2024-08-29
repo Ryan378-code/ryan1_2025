@@ -5,12 +5,9 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here. 
-
-<!DOCTYPE html>
 <html>
 <body>
-<h2>Testing for Javascript in browser</h2>
+<h2>Testing for Javascript in Browser</h2>
 
 </body>
 </html>
