@@ -10,12 +10,6 @@ hide: true
         <button onclick="showContent('original')">Original Flavors</button>
         <button onclick="showContent('random')">Random Opinion Dump</button>
     </div>
-    <div class="submenu">
-  <div class="subnav">
-    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#about">About</a>
-
     <div class="content">
         <div id="original">
             <h2>Original Flavors</h2>
@@ -33,11 +27,11 @@ hide: true
             <h2>Random Opinion Dump</h2>
             <p>This is a collection about my opinions on certain flavors of Skittles and some of the varieties I've tried.</p>
             <ul>
-                <li><strong>Strawberry - The Red One</strong>
-                <li><strong>Orange - The Orange One</strong>
-                <li><strong>Lemon - The Yellow One</strong>
-                <li><strong>Green Apple - The Green One</strong>
-                <li><strong>Grape - The Purple One</strong>
+                <li><strong>Strawberry - The Red One:</strong>
+                <li><strong>Orange - The Orange One:</strong>
+                <li><strong>Lemon - The Yellow One:</strong>
+                <li><strong>Green Apple - The Green One:</strong>
+                <li><strong>Grape - The Purple One:</strong>
             </ul>
         </div>
 </html>
