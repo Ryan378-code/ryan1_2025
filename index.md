@@ -10,6 +10,9 @@ hide: true
         <button onclick="showContent('original')">Original Flavors</button>
         <button onclick="showContent('random')">Random Opinion Dump</button>
     </div>
+    <div class="submenu">
+        <button onclick="showContent('more')">More Information</button>
+
     <div class="content">
         <div id="original">
             <h2>Original Flavors</h2>
@@ -34,6 +37,4 @@ hide: true
                 <li><strong>Grape - The Purple One</strong>
             </ul>
         </div>
-        
-    </div>
 </html>
