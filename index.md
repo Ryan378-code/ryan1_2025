@@ -11,7 +11,10 @@ hide: true
         <button onclick="showContent('random')">Random Opinion Dump</button>
     </div>
     <div class="submenu">
-        <button onclick="showContent('more')">More Information</button>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#about">About</a>
 
     <div class="content">
         <div id="original">
