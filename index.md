@@ -4,7 +4,6 @@ title: Student Home
 description: Home Page
 hide: true
 ---
-<!DOCTYPE html>
 <html lang="en">
     <div class="menu">
         <button onclick="showContent('original')">Original Flavors</button>
@@ -35,3 +34,4 @@ hide: true
             </ul>
         </div>
 </html>
+

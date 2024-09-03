@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /about/
-title: About Me
+title: About
 ---
-<html lang="en">
-<div class="content">
-    <ul>
-        <li><strong>My Motivation: </strong>Placeholder for future text about why I'm taking this class, and what I hope to achieve.</li>
-        <li><strong>Values: </strong>Placeholder for future text about what I currently value.</li>
-        <li><strong>Family: </strong>Placeholder for future text about my family and who I live with. </li>
-    </ul>
-<div>
+<p> More information about Skittles here. Make sure to use a subnavigation bar/submenu.</p>
+<body>
+    <script>
+        submenu.classlist.add('submenu')
+    </script>
+</body>
+
+
     
