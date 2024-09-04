@@ -4,6 +4,19 @@ title: Student Home
 description: Home Page
 hide: true
 ---
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<p>This following page is a collection of information on Skittles.</p>
+<button>Skittles</button>
+<h2>Original Flavors</h2>
+<p>Skittles' Original Flavors Include:</p>
+
+
+
 <html lang="en">
 <div class="content">
 <button>Skittles</button>
