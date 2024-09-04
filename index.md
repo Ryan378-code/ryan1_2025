@@ -5,14 +5,11 @@ description: Home Page
 hide: true
 ---
 <html lang="en">
-    <div class="menu">
-        <button onclick="showContent('original')">Original Flavors</button>
-        <button onclick="showContent('random')">Random Opinion Dump</button>
-    </div>
-    <div class="content">
-        <div id="original">
-            <h2>Original Flavors</h2>
-            <p>Skittles' original flavors include:</p>
+<div class="content">
+<button>Skittles</button>
+    <div id="original">
+         <h2>Original Flavors</h2>
+         <p>Skittles' original flavors include:</p>
             <ul>
                 <li><strong>Strawberry:</strong> A sweet and fruity taste reminiscent of ripe strawberries.</li>
                 <li><strong>Grape:</strong> A bold, juicy grape flavor.</li>
@@ -20,18 +17,28 @@ hide: true
                 <li><strong>Lemon:</strong> A zesty, citrusy taste that is sharp and invigorating.</li>
                 <li><strong>Orange:</strong> A bright and fruity flavor that captures the essence of oranges.</li>
             </ul>
-        </div>
-        </div>
-        <div id="random">
-            <h2>Random Opinion Dump</h2>
-            <p>This is a collection about my opinions on certain flavors of Skittles and some of the varieties I've tried.</p>
-            <ul>
-                <li><strong>Strawberry - The Red One:</strong>
-                <li><strong>Orange - The Orange One:</strong>
-                <li><strong>Lemon - The Yellow One:</strong>
-                <li><strong>Green Apple - The Green One:</strong>
-                <li><strong>Grape - The Purple One:</strong>
-            </ul>
-        </div>
-</html>
+     </div>
+ </div>
 
+ <div class="content">
+    <div id="random">
+        <h2>Random Opinion Dump</h2>
+         <p>This is a collection about my opinions on certain flavors of Skittles and some of the varieties I've tried.</p>
+         <ul>
+            <li><strong>Strawberry - The Red One:</strong></li>
+            <li><strong>Orange - The Orange One:</strong></li>
+            <li><strong>Lemon - The Yellow One:</strong></li>
+            <li><strong>Green Apple - The Green One:</strong></li>
+            <li><strong>Grape - The Purple One:</strong></li>
+            </ul>
+     </div>
+ </div>
+<div>
+    <script>
+        var original=document.getElementById('original') 
+        var random=document.getElementbyId('random') 
+        original.style.marginBottom = '20px'
+        random.style.marginBottom = '20px'
+    </script>
+</div>
+</html>
