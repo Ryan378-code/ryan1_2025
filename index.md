@@ -57,6 +57,7 @@ hide: true
     <div class="subnav">
         <button onclick="redirect()">Types of Skittles</button>
         <button onclick="oops()">Opinions on Original Skittles</button>
+        <button onclick="more()">Other Types of Skittles</button>
     </div>
     <header id="color">
         <h1>Types of Skittles (Ordered by Color):</h1>
@@ -64,11 +65,11 @@ hide: true
 
     <div class="content">
         <div id="types">
-            <p><strong>Red (Strawberry)</strong> Insert text here.</p>
-            <p><strong>Orange (Orange)</strong> Insert text here.</p>
-            <p><strong>Yellow (Lemon)</strong> Insert text here.</p>
-            <p><strong>Green (Lime)</strong> Insert text here.</p>
-            <p><strong>Purple (Grape)</strong> Insert text here.</p>
+            <p><strong>Red (Strawberry):</strong> Insert text here.</p>
+            <p><strong>Orange (Orange):</strong> Insert text here.</p>
+            <p><strong>Yellow (Lemon):</strong> Insert text here.</p>
+            <p><strong>Green (Lime):</strong> Insert text here.</p>
+            <p><strong>Purple (Grape):</strong> Insert text here.</p>
         </div>
     </div>
 
@@ -86,6 +87,19 @@ hide: true
         </div>
     </div>
 
+    <header id="other">
+        <h1>Other Types of Skittles</h1>
+    </header>
+
+    <div class="content">
+        <div id="Other">
+            <p><strong>Skittles Gummies:</strong> Insert text here.</p>
+            <p><strong>Wild Berry:</strong> Insert text here.</p>
+            <p><strong>Sour Skittles:</strong> Insert text here.</p>
+            <p><strong>Brightside:</strong>Insert text here.</p>
+        </div>
+    </div>
+
     <script>
         function redirect() {
             document.getElementById('color').scrollIntoView({ behavior: "smooth" });
@@ -93,10 +107,15 @@ hide: true
         function oops() {
             document.getElementById('header').scrollIntoView({ behavior: "smooth" });
         }
+        function more() {
+            document.getElementById("Other").scrollintoView({behavior: "smooth"});
+        }
         var types = document.getElementById('types')
             types.style.marginBottom ='10px'
         var opinions = document.getElementById('opinions')
             opinions.style.marginBottom = '10px'
+        var Other = document.getElementById('Other')
+            types.style.marginBottom = '10px'
     </script>
 </body>
 </html>

@@ -12,7 +12,7 @@ title: About Me
 <body>
     <div>
         <h1>Family and Nationality</h1>
-        <div id="family"><p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, how moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, which we visit at least once a year. (remember to include Vietnamese flag).</p>
+        <div id="family"><p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, how moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, whom we visit at least once a year. (remember to include Vietnamese flag).</p>
         <h1>Future Plans</h1>
         <div id="passions"><p>I plan on pursuing a career in electrical engineering. I do intend to pursue a masters at some point. I may attend community college initially, but then transfer to a UC school (UCSD). However, I am currently undecided in that regard.</p>
         <h1>Things I Do In My Free Time</h1>
