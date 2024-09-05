@@ -11,18 +11,16 @@ title: About Me
 </head>
 <body>
     <div>
-        <button>Random</button>
-        <h1>Family</h1>
-        <div id="family"><p>Insert text here.</p>
-        <h1>Passions and Plans</h1>
-        <div id="passions"><p>Insert text here.</p>
+        <h1>Family and Nationality</h1>
+        <div id="family"><p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, how moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, which we visit at least once a year. (remember to include Vietnamese flag).</p>
+        <h1>Future Plans</h1>
+        <div id="passions"><p>I plan on pursuing a career in electrical engineering. I do intend to pursue a masters at some point. I may attend community college initially, but then transfer to a UC school (UCSD). However, I am currently undecided in that regard.</p>
         <h1>Things I Do In My Free Time</h1>
-        <div id ="things"><p>Insert text here.</p>
+        <div id ="things"><p>One of my favorite things to do is lsiten to music. My current favorite genre is "dreampop," but I do listen to other genres such as synthwave, indie, and even rock. I also enjoy playing video games, but since school started I haven't had as much time. I love reading as well. I read primarily fiction, but I do pick up an occasional nonfiction book.</p>
         <h1>Interesting Facts</h1>
-        <div id ="interesting"><p>Insert text here.</p>
+        <div id ="interesting"><p>One of the "weirder" things about me is that I'm double-joined on both thumbs. To my knowledge, I'm not double-jointed anywhere else. I love biking, and I actually participated in a 250 mile bike ride in fifth grade (RAC or Ride Across California). I've played around 3 sports in total. I played soccer for a year at best, swam for 2 years at best, and did karate (self-defense) for around 5 years. I made it to brown belt, but then quit once I had reached high school.</p>
     </div>
     <script> 
-    <a class='btn' href="https://www.google.com/imgres?q=dog&imgurl=https%3A%2F%2Fi.natgeofe.com%2Fn%2F4f5aaece-3300-41a4-b2a8-ed2708a0a27c%2Fdomestic-dog_thumb_square.jpg&imgrefurl=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Fmammals%2Ffacts%2Fdomestic-dog&docid=VGirYKV8sLnrzM&tbnid=V_rIzURDXXmHDM&vet=12ahUKEwj_2POFiKqIAxW7kO4BHTmWCA0QM3oECGsQAA..i&w=3072&h=3072&hcb=2&ved=2ahUKEwj_2POFiKqIAxW7kO4BHTmWCA0QM3oECGsQAA">Link</a>
     var family = document.getButtonById('family')
         family.style.marginBottom ='20px'
     var passions =  document.getButtonById('passions')

@@ -16,7 +16,7 @@ hide: true
             padding: 0;
         }
         .header {
-            background-color: #333; /* Changed to make text visible */
+            background-color: #333; 
             color: white;
             padding: 10px 20px;
             text-align: center;
@@ -51,6 +51,8 @@ hide: true
     </style>
 </head>
 
+<p>Information about Skittles below.</p>
+
 <body>
     <div class="subnav">
         <button onclick="redirect()">Types of Skittles</button>
@@ -62,11 +64,11 @@ hide: true
 
     <div class="content">
         <div id="types">
-            <p><strong>Red: Strawberry</strong> Insert text here.</p>
-            <p><strong>Orange: Orange</strong> Insert text here.</p>
-            <p><strong>Yellow: Lemon</strong> Insert text here.</p>
-            <p><strong>Green: Lime</strong> Insert text here.</p>
-            <p><strong>Purple: Grape</strong> Insert text here.</p>
+            <p><strong>Red (Strawberry)</strong> Insert text here.</p>
+            <p><strong>Orange (Orange)</strong> Insert text here.</p>
+            <p><strong>Yellow (Lemon)</strong> Insert text here.</p>
+            <p><strong>Green (Lime)</strong> Insert text here.</p>
+            <p><strong>Purple (Grape)</strong> Insert text here.</p>
         </div>
     </div>
 
@@ -76,11 +78,11 @@ hide: true
 
     <div class="content">
         <div id="opinions">
-            <p><strong>Red: Strawberry</strong> Insert text here.</p>
-            <p><strong>Orange: Orange</strong> Insert text here.</p>
-            <p><strong>Yellow: Lemon</strong> Insert text here.</p>
-            <p><strong>Green: Lime</strong> Insert text here.</p>
-            <p><strong>Purple: Grape</strong> Insert text here.</p>
+            <p><strong>Red (Strawberry):</strong> Insert text here.</p>
+            <p><strong>Orange (Orange):</strong> Insert text here.</p>
+            <p><strong>Yellow (Lemon):</strong> Insert text here.</p>
+            <p><strong>Green (Lime):</strong> Insert text here.</p>
+            <p><strong>Purple (Grape):</strong> Insert text here.</p>
         </div>
     </div>
 
