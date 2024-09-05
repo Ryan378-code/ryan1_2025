@@ -5,6 +5,7 @@ description: Home Page
 hide: true
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@ hide: true
             padding: 0;
         }
         .header {
-            background-color: #ffffff;
+            background-color: #333; /* Changed to make text visible */
             color: white;
             padding: 10px 20px;
             text-align: center;
@@ -68,24 +69,27 @@ hide: true
         </div>
     </div>
 
-    <div class="content"
-        <div id ="opinions">
-            <h1>My Opinions on Each of the Original Skittles Flavors:</h1>
+    <header id="header">
+        <h1>My Opinions On Skittles Flavors:</h1>
+    </header>
+
+    <div class="content">
+        <div id="opinions">
             <p><strong>Red: Strawberry</strong> Insert text here.</p>
             <p><strong>Orange: Orange</strong> Insert text here.</p>
             <p><strong>Yellow: Lemon</strong> Insert text here.</p>
             <p><strong>Green: Lime</strong> Insert text here.</p>
             <p><strong>Purple: Grape</strong> Insert text here.</p>
         </div>
+    </div>
 
     <script>
         function redirect() {
-            document.getElementById('types').scrollIntoView({ behavior: "smooth"});
+            document.getElementById('types').scrollIntoView({ behavior: "smooth" });
         }
         function oops() {
-            document.getElementById('oops').scrollIntoView({behavior:"smooth"});
+            document.getElementById('header').scrollIntoView({ behavior: "smooth" });
         }
     </script>
 </body>
 </html>
-
