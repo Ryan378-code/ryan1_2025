@@ -4,54 +4,74 @@ title: Student Home
 description: Home Page
 hide: true
 ---
-<html lang="en"
+
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffffff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .subnav {
+            background-color: #444;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .subnav button {
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .subnav button:hover {
+            background-color: #666;
+        }
+        .content {
+            margin: 20px;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
 </head>
+<body>
 
-<p>This following page is a collection of information on Skittles.</p>
-<button>Skittles</button>
-<h2>Original Flavors</h2>
-<p>Skittles' Original Flavors Include:</p>
+    <div class="subnav">
+        <button onclick="scrollToTypes()">Types of Skittles</button>
+    </div>
 
+    <div class="content">
+        <div id="types">
+            <h1>Types of Skittles (Ordered by Color):</h1>
+            <p><strong>Red: Strawberry</strong> Insert text here.</p>
+            <p><strong>Orange: Orange</strong> Insert text here.</p>
+            <p><strong>Yellow: Lemon</strong> Insert text here.</p>
+            <p><strong>Green: Lime</strong> Insert text here.</p>
+            <p><strong>Purple: Grape</strong> Insert text here.</p>
+        </div>
+    </div>
 
-
-<html lang="en">
-<div class="content">
-<button>Skittles</button>
-    <div id="original">
-         <h2>Original Flavors</h2>
-         <p>Skittles' original flavors include:</p>
-            <ul>
-                <li><strong>Strawberry:</strong> A sweet and fruity taste reminiscent of ripe strawberries.</li>
-                <li><strong>Grape:</strong> A bold, juicy grape flavor.</li>
-                <li><strong>Green Apple:</strong> A tangy, crisp apple flavor that is both refreshing and sweet.</li>
-                <li><strong>Lemon:</strong> A zesty, citrusy taste that is sharp and invigorating.</li>
-                <li><strong>Orange:</strong> A bright and fruity flavor that captures the essence of oranges.</li>
-            </ul>
-     </div>
- </div>
-
- <div class="content">
-    <div id="random">
-        <h2>Random Opinion Dump</h2>
-         <p>This is a collection about my opinions on certain flavors of Skittles and some of the varieties I've tried.</p>
-         <ul>
-            <li><strong>Strawberry - The Red One:</strong></li>
-            <li><strong>Orange - The Orange One:</strong></li>
-            <li><strong>Lemon - The Yellow One:</strong></li>
-            <li><strong>Green Apple - The Green One:</strong></li>
-            <li><strong>Grape - The Purple One:</strong></li>
-            </ul>
-     </div>
- </div>
-<div>
     <script>
-        var original=document.getElementById('original') 
-        var random=document.getElementbyId('random') 
-        original.style.marginBottom = '20px'
-        random.style.marginBottom = '20px'
+        function redirect() {
+            document.getElementById('types').scrollIntoView({ behavior: 'smooth' });
+        }
     </script>
-</div>
+</body>
 </html>
+
