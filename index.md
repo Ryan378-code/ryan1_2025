@@ -22,7 +22,7 @@ hide: true
             text-align: center;
         }
         .subnav {
-            background-color: #444;
+            background-color: hsl(204, 80%, 75%);
             padding: 10px;
             position: sticky;
             top: 0;
@@ -53,7 +53,8 @@ hide: true
 <body>
 
     <div class="subnav">
-        <button onclick="scrollToTypes()">Types of Skittles</button>
+        <button onclick="redirect()">Types of Skittles</button>
+        <button onclick="oops()">Opinions on Original Skittles</button>
     </div>
 
     <div class="content">
@@ -67,9 +68,22 @@ hide: true
         </div>
     </div>
 
+    <div class="content"
+        <div id ="opinions">
+            <h1>My Opinions on Each of the Original Skittles Flavors:</h1>
+            <p><strong>Red: Strawberry</strong> Insert text here.</p>
+            <p><strong>Orange: Orange</strong> Insert text here.</p>
+            <p><strong>Yellow: Lemon</strong> Insert text here.</p>
+            <p><strong>Green: Lime</strong> Insert text here.</p>
+            <p><strong>Purple: Grape</strong> Insert text here.</p>
+        </div>
+
     <script>
         function redirect() {
-            document.getElementById('types').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('types').scrollIntoView({ behavior: "smooth"});
+        }
+        function oops() {
+            document.getElementById('oops').scrollIntoView({behavior:"smooth"});
         }
     </script>
 </body>
