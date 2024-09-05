@@ -5,7 +5,6 @@ description: Home Page
 hide: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,16 +50,18 @@ hide: true
         }
     </style>
 </head>
-<body>
 
+<body>
     <div class="subnav">
         <button onclick="redirect()">Types of Skittles</button>
         <button onclick="oops()">Opinions on Original Skittles</button>
     </div>
+    <header id="color">
+        <h1>Types of Skittles (Ordered by Color):</h1>
+    </header>
 
     <div class="content">
         <div id="types">
-            <h1>Types of Skittles (Ordered by Color):</h1>
             <p><strong>Red: Strawberry</strong> Insert text here.</p>
             <p><strong>Orange: Orange</strong> Insert text here.</p>
             <p><strong>Yellow: Lemon</strong> Insert text here.</p>
@@ -85,11 +86,15 @@ hide: true
 
     <script>
         function redirect() {
-            document.getElementById('types').scrollIntoView({ behavior: "smooth" });
+            document.getElementById('color').scrollIntoView({ behavior: "smooth" });
         }
         function oops() {
             document.getElementById('header').scrollIntoView({ behavior: "smooth" });
         }
+        var types = document.getElementById('types')
+            types.style.marginBottom ='10px'
+        var opinions = document.getElementById('opinions')
+            opinions.style.marginBottom = '10px'
     </script>
 </body>
 </html>
