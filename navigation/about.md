@@ -14,19 +14,23 @@ title: About Me
             height: auto; 
             display: block; 
             margin: 10px left; 
-            border: 5px solid #000; 
-            padding: 4px; 
-        }
-        div {
-            margin-bottom: 20px;
+            border: 5px solid #000;  
         }
         h1 {
             color: #FA8072;
+        }
+        .me {
+            width: 300px; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+            border: 5px solid #000; 
         }
     </style>
 </head>
 <body>
     <div class="container">
+       <img src="https://drive.google.com/uc?id=1-F1XOi_cVkaGenLMi5iFTJkO9l_fDNVn" alt="Image of Me" class="me">
         <h1>Family and Nationality</h1>
         <div id="family">
             <p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, who moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, whom we visit at least once a year.</p>
