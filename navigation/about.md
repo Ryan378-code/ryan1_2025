@@ -49,5 +49,16 @@ title: About Me
             <p>One of the "weirder" things about me is that I'm double-jointed on both thumbs. To my knowledge, I'm not double-jointed anywhere else. I love biking, and I actually participated in a 250-mile bike ride in fifth grade (RAC or Ride Across California). I've played around 3 sports in total. I played soccer for a year at best, swam for 2 years at best, and did karate (self-defense) for around 5 years. I made it to brown belt but then quit once I had reached high school.</p>
         </div>
     </div>
+    <script>
+        var family = document.getElementById('family')
+            types.style.marginBottom ='20px'
+        var passions = document.getElementById('passions')
+            types.style.marginBottom ='20px'
+        var things = document.getElementById('things')
+            types.style.marginBottom ='20px'
+        var interesting = document.getElementById('interesting')
+            types.style.marginBottom ='20px'
+    </script>
+
 </body>
 </html>
