@@ -20,6 +20,9 @@ title: About Me
         div {
             margin-bottom: 20px;
         }
+        h1 {
+            color: #FA8072;
+        }
     </style>
 </head>
 <body>

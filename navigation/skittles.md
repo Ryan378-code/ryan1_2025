@@ -1,6 +1,6 @@
 --- 
 layout: page
-title: Tools and Setup 
-description: Tools and Setup
+title: Skittles
+description: Information on Skittles
 hide: True
 --- 
