@@ -1,7 +1,7 @@
 --- 
 layout: page
 title: Tools and Setup 
-description: Tools and Setup
+description: My Journey
 hide: True
 --- 
 
@@ -9,6 +9,12 @@ hide: True
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <style>
+    </style>
 
-<h1>
+<body>
+    <div>
+        <h1>Setup<h1>
+    </div>
+</body>
+</html>
