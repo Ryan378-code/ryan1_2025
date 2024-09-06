@@ -9,132 +9,77 @@ hide: True
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Skittles Variants I've Tried and My Opinions on Them</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
-        .header {
-            background-color: #333; 
-            color: white;
-            padding: 10px 20px;
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
             text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
         }
-        .subnav {
-            background-color: hsl(204, 80%, 75%);
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .submenu {
+            background-color: #444;
             padding: 10px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
         }
-        .subnav button {
-            background-color: #555;
+        .submenu a {
+            display: block;
             color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
+            padding: 10px 15px;
+            text-decoration: none;
             font-size: 16px;
         }
-        .subnav button:hover {
+        .submenu a:hover {
             background-color: #666;
-        }
-        .content {
-            margin: 20px;
-        }
-        h1 {
-            color: #ffffff;
-        }
-        p {
-            margin: 10px 0;
-        }
-        .button {
-            padding: 10px 20px;
-            font-size: 16px;
-            color: rgb(255, 255, 255);
-            background-color: hsl(211, 39%, 81%);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #eaebed;
         }
     </style>
 </head>
-
-<p>Information about Skittles below.</p>
-
 <body>
-    <div class="subnav">
-        <button onclick="redirect()">Types of Skittles</button>
-        <button onclick="oops()">Opinions on Original Skittles</button>
-        <button onclick="more()">Other Types of Skittles</button>
+    <div class="submenu">
+        <a href="original.html">Gummies</a>
+        <a href="sour.html">Sour</a>
+        <a href="opinions.html">My Opinions</a>
     </div>
-    <div> 
-        <button class="button" onclick="moving()">click me</button>
-    </div>
-    <header id="color">
-        <h1>Types of Skittles (Ordered by Color):</h1>
-    </header>
 
-    <div class="content">
-        <div id="types">
-            <p><strong>Red (Strawberry):</strong> Insert text here.</p>
-            <p><strong>Orange (Orange):</strong> Insert text here.</p>
-            <p><strong>Yellow (Lemon):</strong> Insert text here.</p>
-            <p><strong>Green (Lime):</strong> Insert text here.</p>
-            <p><strong>Purple (Grape):</strong> Insert text here.</p>
+<h1>Original Skittles<h1>
+ <div class="container">
+        <h1 style="color: red">Red:</h1>
+        <div id="family">
+            <p>Surprisingly, the red skittle is not cherry flavored. This skittle is actually strawberry-flavored.</p>
+        </div>
+        <h1 style="color: orange">Orange:</h1>
+        <div id="passions">
+            <p>Orange is the only color that you can taste! This flavor, to no surprise, is flavored like oranges. One can describe this flavor as sweet and tangy.</p>
+        </div>
+        <h1 style="color: yellow">Yellow:</h1>
+        <div id="things">
+            <p>According to Skittles, this is one of the more disliked Skittles flavors. (This isn't really a surprise when there are better flavors). This Skittle is flavored like lemon, which is zesty, tart, and sweet.</p>
+        </div>
+        <h1 style="color: green">Green</h1>
+        <div id="interesting">
+            <p>There is debate on the flavor of the green Skittle. Some say green apple and others say lime. This flavor of Skittle is tart and sweet.</p>
+        <h1 style="color: purple">Purple</h1>
+        <div id="kolp">
+            <p>Purple is, as always, grape. This Skittle flavor is a rich, deep, but sweet flavor.</p>
         </div>
     </div>
 
-    <header id="header">
-        <h1>My Opinions On Skittles Flavors:</h1>
-    </header>
-
-    <div class="content">
-        <div id="opinions">
-            <p><strong>Red (Strawberry):</strong> Insert text here.</p>
-            <p><strong>Orange (Orange):</strong> Insert text here.</p>
-            <p><strong>Yellow (Lemon):</strong> Insert text here.</p>
-            <p><strong>Green (Lime):</strong> Insert text here.</p>
-            <p><strong>Purple (Grape):</strong> Insert text here.</p>
-        </div>
-    </div>
-
-    <header id="other">
-        <h1>Other Types of Skittles</h1>
-    </header>
-
-    <div class="content">
-        <div id="Other">
-            <p><strong>Skittles Gummies:</strong> Insert text here.</p>
-            <p><strong>Wild Berry:</strong> Insert text here.</p>
-            <p><strong>Sour Skittles:</strong> Insert text here.</p>
-            <p><strong>Brightside:</strong>Insert text here.</p>
-        </div>
-    </div>
-
-    <script>
-        function redirect() {
-            document.getElementById('color').scrollIntoView({ behavior: "smooth" });
-        }
-        function oops() {
-            document.getElementById('header').scrollIntoView({ behavior: "smooth" });
-        }
-        function more() {
-            document.getElementById("Other").scrollintoView({behavior: "smooth"});
-        }
-        var types = document.getElementById('types')
-            types.style.marginBottom ='10px'
-        var opinions = document.getElementById('opinions')
-            opinions.style.marginBottom = '10px'
-        var Other = document.getElementById('Other')
-            types.style.marginBottom = '10px'
-         function moving() {
-            const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-            window.location.href = url;
-         }
-    </script>
 </body>
 </html>
+
