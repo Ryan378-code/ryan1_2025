@@ -36,33 +36,19 @@ hide: true
             color: black;
         }
         .submenu {
-            display: none;
-            position: absolute;
-            background-color: #333;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
+            background-color: #444;
+            padding: 10px;
         }
         .submenu a {
-            float: none;
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
             display: block;
-            text-align: left;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 16px;
         }
         .submenu a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #666;
         }
-        .navbar .dropdown {
-            float: left;
-            overflow: hidden;
-        }
-        .navbar .dropdown:hover .submenu {
-            display: block;
-        }
-        /* Mario animation */
         .mario {
             position: absolute;
             top: 20px;
@@ -82,20 +68,12 @@ hide: true
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <div class="dropdown">
-            <a href="#" class="dropbtn">Menu</a>
-            <div class="submenu">
-                <a href="navigation/skittles.html">Skittles</a>
-            </div>
-        </div>
-    </div>
+    <div class="submenu">
+        <a href="navigation/skittles.html">Skittles</a>
+        <a href="navigation/tools.html">Tools and Journey</a>
+     </div>
+        
     <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ddabef1-8390-424a-a828-f61e4df3d499/daraj8q-744f0563-d3f2-4a25-98a7-377abba7dc7b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkZGFiZWYxLTgzOTAtNDI0YS1hODI4LWY2MWU0ZGYzZDQ5OVwvZGFyYWo4cS03NDRmMDU2My1kM2YyLTRhMjUtOThhNy0zNzdhYmJhN2RjN2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KpbFWvWcQbuGNwF9TtupLcDKwLRFW8DAZLx404K5bAU" alt="Mario Running" class="mario">
-
-    <div style="padding:20px;">
-        <h1>Welcome! This page is centered around Skittles and some of its variants.</h1>
-        <p>Click on the buttons above to learn more about Skittles, me, or my tools and setup.</p>
-    </div>
 </body>
 </html>
 
