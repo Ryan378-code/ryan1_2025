@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 title: About Me
 ---
-
+![Me](download.png)
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,8 +29,7 @@ title: About Me
     </style>
 </head>
 <body>
-    <div class="container">
-       <img src="https://drive.google.com/uc?id=1-F1XOi_cVkaGenLMi5iFTJkO9l_fDNVn" alt="Image of Me" class="me">
+    <div class="container"> 
         <h1>Family and Nationality</h1>
         <div id="family">
             <p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, who moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, whom we visit at least once a year.</p>
