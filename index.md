@@ -48,6 +48,18 @@ hide: true
         p {
             margin: 10px 0;
         }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            background-color: hsl(211, 39%, 81%);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #eaebed;
+        }
     </style>
 </head>
 
@@ -58,6 +70,9 @@ hide: true
         <button onclick="redirect()">Types of Skittles</button>
         <button onclick="oops()">Opinions on Original Skittles</button>
         <button onclick="more()">Other Types of Skittles</button>
+    </div>
+    <div> 
+        <button class="button" onclick="moving()">click me</button>
     </div>
     <header id="color">
         <h1>Types of Skittles (Ordered by Color):</h1>
@@ -116,6 +131,10 @@ hide: true
             opinions.style.marginBottom = '10px'
         var Other = document.getElementById('Other')
             types.style.marginBottom = '10px'
+         function moving() {
+            const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+            window.location.href = url;
+         }
     </script>
 </body>
 </html>
