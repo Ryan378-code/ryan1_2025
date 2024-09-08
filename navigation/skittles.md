@@ -69,24 +69,29 @@ hide: True
         <h1 style="color: #f59999">Red:</h1>
         <div id="family">
             <p>Surprisingly, the red skittle is not cherry flavored. This skittle is actually strawberry-flavored.</p>
+            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Strawberry-Pink.jpeg" alt="Strawberry Skittle" class="strawberry">
         </div>
         <h1 style="color: #FFBD31">Orange:</h1>
         <div id="passions">
             <p>Orange is the only color that you can taste! This flavor, to no surprise, is flavored like oranges. One can describe this flavor as sweet and tangy.</p>
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Forange%2Fcomments%2F10k1alx%2Forange_skittles%2F&psig=AOvVaw0R82T4beCC14GMrXk0PNTR&ust=1725924320673000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDs9qK_tIgDFQAAAAAdAAAAABAR" alt="Orange Skittle" class="orange">
         </div>
         <h1 style="color: #FFF700">Yellow:</h1>
         <div id="things">
             <p>According to Skittles, this is one of the more disliked Skittles flavors. (This isn't really a surprise when there are better flavors). This Skittle is flavored like lemon, which is zesty, tart, and sweet.</p>
+            <img src="https://i.ebayimg.com/images/g/ARoAAOSwIhJgheP8/s-l500.jpg" alt="Lemon Skittle" class = lemon>
         </div>
         <h1 style="color: #a6f1a6">Green:</h1>
         <div id="interesting">
             <p>There is debate on the flavor of the green Skittle. Some say green apple and others say lime. This flavor of Skittle is tart and sweet.</p>
+            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Lime-Skittles.jpeg" alt="Green Apple" class = apple>
+        </div>
         <h1 style="color: #B399DD">Purple:</h1>
         <div id="kolp">
             <p>Purple is, as always, grape. This Skittle flavor is a rich, deep, but sweet flavor.</p>
+            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Berry-Punch-2.jpeg" alt = "Grape Skittle" class = grape>
         </div>
     </div>
-
 </body>
 </html>
 
