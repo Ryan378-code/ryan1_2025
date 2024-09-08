@@ -11,7 +11,7 @@ hide: True
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: 'Calibri,' Arial, sans-serif;
+            font-family: 'Calibri', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -47,14 +47,21 @@ hide: True
         .submenu a:hover {
             background-color: #666;
         }
-        .h1 {
-            font-family: 'Calibri,' Arial, sans-serif
+        h1 {
+            font-family: 'Calibri', Arial, sans-serif;
         }
         p {
             color: black;
-            font-family: 'Calibri,' Arial, sans-serif
+            font-family: 'Calibri', Arial, sans-serif;
+            font-size: 20px;
         }
-        
+        .strawberry, .orange, .lemon, .apple, .grape {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 5px solid #000;
+        }
     </style>
 </head>
 <body>
@@ -63,9 +70,8 @@ hide: True
         <a href="sour.html">Sour</a>
         <a href="opinions.html">My Opinions</a>
     </div>
-
-<h1>Original Skittles<h1>
- <div class="container">
+    <h1>Original Skittles</h1>
+    <div class="container">
         <h1 style="color: #f59999">Red:</h1>
         <div id="family">
             <p>Surprisingly, the red skittle is not cherry flavored. This skittle is actually strawberry-flavored.</p>
@@ -74,24 +80,25 @@ hide: True
         <h1 style="color: #FFBD31">Orange:</h1>
         <div id="passions">
             <p>Orange is the only color that you can taste! This flavor, to no surprise, is flavored like oranges. One can describe this flavor as sweet and tangy.</p>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Forange%2Fcomments%2F10k1alx%2Forange_skittles%2F&psig=AOvVaw0R82T4beCC14GMrXk0PNTR&ust=1725924320673000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDs9qK_tIgDFQAAAAAdAAAAABAR" alt="Orange Skittle" class="orange">
+            <img src="https://www.snackhistory.com/wp-content/uploads/2023/04/Orange-Candy-1.jpg" alt="Orange Skittle" class="orange">
         </div>
         <h1 style="color: #FFF700">Yellow:</h1>
         <div id="things">
             <p>According to Skittles, this is one of the more disliked Skittles flavors. (This isn't really a surprise when there are better flavors). This Skittle is flavored like lemon, which is zesty, tart, and sweet.</p>
-            <img src="https://i.ebayimg.com/images/g/ARoAAOSwIhJgheP8/s-l500.jpg" alt="Lemon Skittle" class = lemon>
+            <img src="https://i.ebayimg.com/images/g/ARoAAOSwIhJgheP8/s-l500.jpg" alt="Lemon Skittle" class="lemon">
         </div>
         <h1 style="color: #a6f1a6">Green:</h1>
         <div id="interesting">
             <p>There is debate on the flavor of the green Skittle. Some say green apple and others say lime. This flavor of Skittle is tart and sweet.</p>
-            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Lime-Skittles.jpeg" alt="Green Apple" class = apple>
+            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Lime-Skittles.jpeg" alt="Green Apple" class="apple">
         </div>
         <h1 style="color: #B399DD">Purple:</h1>
         <div id="kolp">
             <p>Purple is, as always, grape. This Skittle flavor is a rich, deep, but sweet flavor.</p>
-            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Berry-Punch-2.jpeg" alt = "Grape Skittle" class = grape>
+            <img src="https://villagecandyshop.com/wp-content/uploads/2023/10/Berry-Punch-2.jpeg" alt="Grape Skittle" class="grape">
         </div>
     </div>
 </body>
 </html>
+
 
