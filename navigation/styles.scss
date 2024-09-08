@@ -1,0 +1,79 @@
+$font-family: 'Calibri', Arial, sans-serif;
+$background-color: #f4f4f4;
+$navbar-background: #333;
+$navbar-link-color: #f2f2f2;
+$navbar-link-hover-bg: #ddd;
+$navbar-link-hover-color: black;
+$submenu-background: #444;
+$submenu-link-color: white;
+$submenu-link-hover-bg: #666;
+$h1-red: red;
+$h1-orange: orange;
+$h1-yellow: yellow;
+$h1-green: green;
+$h1-purple: purple;
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}
+
+.navbar {
+    background-color: $navbar-background;
+    overflow: hidden;
+
+    a {
+        float: left;
+        display: block;
+        color: $navbar-link-color;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+
+        &:hover {
+            background-color: $navbar-link-hover-bg;
+            color: $navbar-link-hover-color;
+        }
+    }
+}
+
+.submenu {
+    background-color: $submenu-background;
+    padding: 10px;
+
+    a {
+        display: block;
+        color: $submenu-link-color;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 16px;
+
+        &:hover {
+            background-color: $submenu-link-hover-bg;
+        }
+    }
+}
+
+.container {
+    h1 {
+        &.red {
+            color: $h1-red;
+        }
+        &.orange {
+            color: $h1-orange;
+        }
+        &.yellow {
+            color: $h1-yellow;
+        }
+        &.green {
+            color: $h1-green;
+        }
+        &.purple {
+            color: $h1-purple;
+        }
+    }
+}
+

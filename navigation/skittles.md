@@ -9,10 +9,9 @@ hide: True
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Skittles Variants I've Tried and My Opinions on Them</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Calibri,' Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -47,6 +46,9 @@ hide: True
         }
         .submenu a:hover {
             background-color: #666;
+        }
+        .h1 {
+            font-family: 'Calibri,' Arial, sans-serif
         }
     </style>
 </head>
