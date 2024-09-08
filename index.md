@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Student Home 
-description: Home Page
+title: Ryan and Skittles 
+description: Here you'll find information about me, my programming journey, and Skittles!
 hide: true
 ---
 
@@ -17,7 +17,7 @@ hide: true
             background-color: #f4f4f4;
         }
         .navbar {
-            background-color: #333;
+            background-color: #d5e6ed;
             overflow: hidden;
         }
         .navbar a {
