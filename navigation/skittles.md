@@ -15,7 +15,6 @@ hide: True
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: black;
         }
         .navbar {
             background-color: #333;
@@ -51,6 +50,11 @@ hide: True
         .h1 {
             font-family: 'Calibri,' Arial, sans-serif
         }
+        p {
+            color: black;
+            font-family: 'Calibri,' Arial, sans-serif
+        }
+        
     </style>
 </head>
 <body>
