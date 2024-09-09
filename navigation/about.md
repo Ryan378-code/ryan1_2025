@@ -32,8 +32,8 @@ title: About Me
     <div class="container"> 
         <h1>Family and Nationality</h1>
         <div id="family">
-            <p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, who moved into the U.S around the late 1900s. The vast majority of my immediate family lives in Seattle, Washington, whom we visit at least once a year.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="Vietnamese Flag" class="flag">
+            <p>I live with two parents and an older sibling, who graduated from Del Norte and now attends community college. Both of my parents are Vietnamese immigrants, who moved into the U.S around the early 1990s. The vast majority of my immediate family lives in Seattle, Washington, whom we visit at least once a year.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_South_Vietnam.png/1024px-Flag_of_South_Vietnam.png" alt="Vietnamese Flag" class="flag">
         </div>
         <h1>Future Plans</h1>
         <div id="passions">
