@@ -72,6 +72,9 @@ hide: true
     <p>These are currently on my mind! Would love to have these.</p>
     <img src="https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/qb3lrole0uywupm6pzfl.png" alt = "Gummy Skittles" class="gum">
     </div>
+    <button><a href="notebook1.html">Notebook 1</a></button>
+    <button><a href="notebook2.html">Notebook 2</a></button>
+    <button><a href="notebook3.html">Notebook 3</a></button>
 
     <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ddabef1-8390-424a-a828-f61e4df3d499/daraj8q-744f0563-d3f2-4a25-98a7-377abba7dc7b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkZGFiZWYxLTgzOTAtNDI0YS1hODI4LWY2MWU0ZGYzZDQ5OVwvZGFyYWo4cS03NDRmMDU2My1kM2YyLTRhMjUtOThhNy0zNzdhYmJhN2RjN2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KpbFWvWcQbuGNwF9TtupLcDKwLRFW8DAZLx404K5bAU" alt="Mario Running" class="mario">
     <script src="https://utteranc.es/client.js"
