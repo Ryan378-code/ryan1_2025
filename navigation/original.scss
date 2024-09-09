@@ -1,0 +1,13 @@
+
+$h1-color: #FA8072;
+$margin-bottom: 20px;
+
+h1 {
+    color: $h1-color;
+}
+
+#family,
+#passions,
+#things {
+    margin-bottom: $margin-bottom;
+}
