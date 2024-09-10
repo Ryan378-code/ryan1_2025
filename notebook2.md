@@ -11,7 +11,7 @@ hide: false
     <title>Random Math Joke</title>
 </head>
 <body>
-    <p id="mathJoke">Click the button to see a random math joke!</p>
+    <p id="mathJoke">Click the button to see a bad joke!</p>
     <button
         onclick="generateJoke()"
         style="background: linear-gradient(to right, #00c6ff, #0072ff);
@@ -27,14 +27,11 @@ hide: false
         var mathJokeList = [
             "Why was the equal sign so humble? Because it knew it wasn't less than or greater than anyone else.",
             "Why did the mathematician break up with his girlfriend? She had too many problems.",
-            "How do you stay warm in a cold room? Go to the corner, it’s always 90 degrees.",
-            "Why was the math book sad? It had too many problems.",
             "Why was the fraction apprehensive about marrying the decimal? Because he would have to convert.",
             "Why did the two fours skip lunch? They already eight.",
             "What is a math teacher’s favorite place in NYC? Times Square.",
             "Why was the student eating his math homework? Because his teacher said it was a piece of cake.",
-            "What do you call a number that can't keep still? A roamin' numeral.",
-            "Why was the obtuse triangle always so sad? Because it was never right."
+            "Why was 6 afraid of 7? 7 8 9."
         ];
         function generateJoke() {
             var randomIndex = Math.floor(Math.random() * mathJokeList.length);
