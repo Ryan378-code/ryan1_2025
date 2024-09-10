@@ -1,6 +1,6 @@
 ---
 layout: base
-title: MKath Jokes
+title: Math Jokes
 description: Click the button below to see a random math joke. 
 hide: false
 ---
@@ -11,7 +11,7 @@ hide: false
     <title>Random Math Joke</title>
 </head>
 <body>
-    <p id="mathJoke">Click the button to see a bad joke!</p>
+    <p id="mathJoke">Click the button to see something about math!</p>
     <button
         onclick="generateJoke()"
         style="background: linear-gradient(to right, #00c6ff, #0072ff);
