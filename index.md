@@ -53,6 +53,17 @@ hide: true
             margin: 10px left; 
             border: 5px solid #9e7171;
         }
+        .games {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .games a {
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -76,7 +87,12 @@ hide: true
     <button><a href="notebook2.html">Notebook 2</a></button>
     <button><a href="notebook3.html">Notebook 3</a></button>
 
-    <div class="submenu"></div>
+
+        <div id="interesting">
+            <h1>Games (Cookie Clicker, Binary Calculator, Random Mystery Game):</h1>
+        </div>
+
+    <div class="games"></div>
         <a href="https://www.skittles.com/">Cookie Clicker</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Binary Calculator</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Snake Game</a>
@@ -89,6 +105,8 @@ hide: true
         theme="github-dark"
         crossorigin="anonymous"
         async>
+    var gummies = document.getElementById('gummies');
+        gummies.style.marginBottom = '20px';
     </script>
 </body>
 </html>
