@@ -5,12 +5,10 @@ description: Here you'll find information about me, my programming journey, and 
 hide: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
     <style>
         body {
             font-family: 'Calibri', Arial, sans-serif;
@@ -23,13 +21,17 @@ hide: true
             padding: 10px;
             margin: 10px 0;
         }
-        .submenu a {
+        .submenu a, .submenu button {
             display: block;
             color: rgb(255, 255, 255);
             padding: 10px;
             text-decoration: none;
+            border: none;
+            background: none;
+            font-size: 18px;
+            cursor: pointer;
         }
-        .submenu a:hover {
+        .submenu a:hover, .submenu button:hover {
             background-color: #ddd;
             color: #000;
         }
@@ -67,6 +69,15 @@ hide: true
             padding: 10px;
             text-decoration: none;
         }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ddd;
+        }
     </style>
 </head>
 <body>
@@ -87,9 +98,12 @@ hide: true
         <img src="https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/qb3lrole0uywupm6pzfl.png" alt="Gummy Skittles" class="gum">
     </div>
 
-    <button><a href="notebook1.html">Notebook 1</a></button>
-    <button><a href="notebook2.html">Notebook 2</a></button>
-    <button><a href="notebook3.html">Notebook 3</a></button>
+    <h2>Notebooks</h2>
+    <div class="submenu">
+        <button><a href="notebook1.html">Notebook 1</a></button>
+        <button><a href="notebook2.html">Notebook 2</a></button>
+        <button><a href="notebook3.html">Notebook 3</a></button>
+    </div>
 
     <div id="interesting">
         <h1>Games:</h1>
@@ -114,9 +128,3 @@ hide: true
     </script>
 </body>
 </html>
-
-
-
-
-
-
