@@ -23,9 +23,6 @@ hide: true
         }
     </style>
 </head>
-
-<p>Hello.</p>
-
 <body>
     <canvas id="snakeGame" width="400" height="400"></canvas>
     <script>
@@ -75,3 +72,5 @@ hide: true
     </script>
 </body>
 </html>
+
+
