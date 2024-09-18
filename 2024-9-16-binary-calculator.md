@@ -9,80 +9,43 @@ hide: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: 'Calibri', Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-            overflow: hidden; 
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 800px; 
-            width: 100%; 
-        }
-        input {
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            width: 100%; 
-            box-sizing: border-box;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%; 
-            box-sizing: border-box;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        p {
-            font-size: 18px;
-            font-weight: bold;
-            color: #333;
-            margin: 20px 0 0;
-        }
-    </style>
+    <title>Decimal to Binary Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Binary Calculator</h1>
-        <input type="number" id="numberInput" placeholder="Enter an integer" />
-        <button onclick="convertToBinary()">Convert to Binary</button>
-        <p id="result"></p>
-    </div>
-    <script>
-        function convertToBinary() {
-            const numberInput = document.getElementById('numberInput').value;
-            const resultElement = document.getElementById('result');
-            if (numberInput.trim() === '') {
-                resultElement.textContent = 'Please enter a number or integer.';
-                return;
-            }  
-            const number = parseInt(numberInput, 10);
-            if (isNaN(number) || number < 0) {
-                resultElement.textContent = 'Please enter a non-negative integer.';
-                return;
-            }
-            const binary = number.toString(2);
-            resultElement.textContent = `The binary representation of ${number} is: ${binary}`;
+<h1>Decimal to Binary Calculator</h1>
+<form>
+    <label for="decimal1">First Decimal Number:</label>
+    <input type="number" id="decimal1" name="decimal1" placeholder="Enter decimal number"><br><br>
+    <label for="decimal2">Second Decimal Number:</label>
+    <input type="number" id="decimal2" name="decimal2" placeholder="Enter decimal number"><br><br>
+    <label for="operation">Operation:</label>
+    <select id="operation" name="operation">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+    </select><br><br>
+    <button type="button" onclick="calculate()">Calculate</button>
+</form>
+<h2>Result (Binary): <span id="result"></span></h2>
+
+<script>
+    function calculate() {
+        const decimal1 = parseInt(document.getElementById('decimal1').value);
+        const decimal2 = parseInt(document.getElementById('decimal2').value);
+        const operation = document.getElementById('operation').value;
+
+
+        let result;
+
+
+        if (operation === 'add') {
+            result = decimal1 + decimal2;
+        } else if (operation === 'subtract') {
+            result = decimal1 - decimal2;
         }
-    </script>
+
+        document.getElementById('result').textContent = result.toString(2);
+    }
+</script>
+
 </body>
 </html>
