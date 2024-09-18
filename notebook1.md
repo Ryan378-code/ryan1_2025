@@ -1,7 +1,7 @@
 --- 
 layout: base
 title: Planned vs Accomplished + Challenges and Overcoming
-description: Here is my plan for the upcoming Sprint 1.
+description: This page describes what I planned to accomplish, what I actually accomplished, and 
 hide: false
 ---
 <html lang="en">
