@@ -89,7 +89,7 @@ hide: true
     </div>
     <div class="submenu">
         <a href="https://www.skittles.com/">Skittles Website</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Mystery Button (Totally not a rickroll)</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Mystery Button</a>
     </div>
 
     <p>Have fun exploring my pages!</p>
