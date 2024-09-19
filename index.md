@@ -94,7 +94,7 @@ hide: true
 
     <p>Have fun exploring my pages!</p>
     <div class="gummies">
-        <p>These are currently on my mind! Would love to have these.</p>
+        <p>These are currently on my mind! I would love to have these right now!</p>
         <img src="https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/qb3lrole0uywupm6pzfl.png" alt="Gummy Skittles" class="gum">
     </div>
 
