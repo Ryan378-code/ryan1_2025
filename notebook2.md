@@ -1,19 +1,19 @@
 ---
 layout: base
-title: Math Jokes
-description: Click the button below to see a random math joke. 
+title: Skittles Facts
+description: Click the button below to see a random Skittles fact. 
 hide: false
 ---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Math Joke</title>
+    <title>Skittles Facts</title>
 </head>
 <body>
-    <p id="mathJoke">Click the button to see something about math!</p>
+    <p id="skittlesFact">Click the button to see something about Skittles!</p>
     <button
-        onclick="generateJoke()"
+        onclick="generateFact()"
         style="background: linear-gradient(to right, #00c6ff, #0072ff);
                padding: 15px 30px;
                font-size: 18px;
@@ -21,23 +21,22 @@ hide: false
                border: none;
                border-radius: 20px;
                cursor: pointer;">
-        Get a Math Joke
+        Get a Skittles Fact
     </button>
     <script>
-        var mathJokeList = [
-            "Why was the equal sign so humble? Because it knew it wasn't less than or greater than anyone else.",
-            "Why did the mathematician break up with his girlfriend? She had too many problems.",
-            "Why was the fraction apprehensive about marrying the decimal? Because he would have to convert.",
-            "Why did the two fours skip lunch? They already eight.",
-            "What is a math teacher’s favorite place in NYC? Times Square.",
-            "Why was the student eating his math homework? Because his teacher said it was a piece of cake.",
-            "Why was 6 afraid of 7? 7 8 9."
+        var skittlesFactList = [
+            "Skittles were first produced in 1974 in the UK and were introduced to the United States in 1982.",
+            "The sugar shell of Skittles is made from a combination of sugar, corn syrup, and hydrogenated palm kernel oil, giving them their distinct shiny appearance.",
+            "In 2007, astronauts on the Space Shuttle Atlantis took Skittles to space as part of their food supplies!",
+            "In 2013, the company changed the green Skittle from lime to green apple, sparking debates among fans!",
+            "Over the years, Skittles has released numerous limited-edition flavors and varieties, such as Skittles Sour, Skittles Wild Berry, and even Skittles Gummies."
         ];
-        function generateJoke() {
-            var randomIndex = Math.floor(Math.random() * mathJokeList.length);
-            var selectedJoke = mathJokeList[randomIndex];
-            document.getElementById("mathJoke").innerText = "Math Joke #" + (randomIndex + 1) + ": " + selectedJoke;
+        function generateFact() {
+            var randomIndex = Math.floor(Math.random() * skittlesFactList.length);
+            var selectedFact = skittlesFactList[randomIndex];
+            document.getElementById("skittlesFact").innerText = "Skittles Fact #" + (randomIndex + 1) + ": " + selectedFact;
         }
     </script>
 </body>
 </html>
+

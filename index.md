@@ -98,11 +98,9 @@ hide: true
         <img src="https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/qb3lrole0uywupm6pzfl.png" alt="Gummy Skittles" class="gum">
     </div>
 
-    <h1>Jupyter Notebooks</h1>
+    <h1>Jupyter Notebook (Emoji!)</h1>
     <div class="submenu">
         <button><a href="https://github.com/Ryan378-code/ryan1_2025/blob/main/2024-09-15-jupyter-notebook-python.ipynb">Emoji Notebook (Hack #1)</a></button>
-        <button><a href="notebook2.html">Javascript Cell</a></button>
-        <button><a href="notebook3.html">Notebook 3</a></button>
     </div>
 
     <h1>(Other) Notebooks</h1>
