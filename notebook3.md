@@ -17,7 +17,7 @@ hide: false
     </div>
     <div id="purpose">
         <h1>My Purpose:</h1>
-        <p>Skittles wasn't my first choice. I initially struggled to choose a topic but then settled on one that wasn't academic and would be more casual: my favorite candy. Skittles have been a staple of my childhood, especially on Halloween. I also thought this blog page would be a great opportunity to explore programming (and all the programming languages that come with it, such as JavaScript, Python, etc.), but also talk about something I normally don't get the opportunity to. I simply wanted to have fun with this project, providing very brief information on my topic while still offering some elements of "me" by adding a personal review element. Ultimately, I'm aiming to have fun.</p>
+        <p>Skittles wasn't my first choice. I initially struggled to choose a topic but then settled on one that wasn't academic and would be more casual: my favorite candy. Skittles have been a staple of my childhood, especially on Halloween. I also thought this blog page would be a great opportunity to explore programming (and all the programming languages that come with it, such as JavaScript, Python, etc.), but also talk about something I normally don't get the opportunity to. I simply wanted to have fun with this project, providing very brief information on my topic while still offering some elements of "me" by adding a personal review element.</p>
     </div>
 </body> 
 </html>
