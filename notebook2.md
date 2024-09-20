@@ -8,7 +8,6 @@ hide: false
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skittles Facts</title>
 </head>
 <body>
     <p id="skittlesFact">Click the button to see something about Skittles!</p>

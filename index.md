@@ -23,7 +23,7 @@ hide: true
         }
         .submenu a, .submenu button {
             display: block;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             padding: 10px;
             text-decoration: none;
             border: none;
@@ -61,11 +61,11 @@ hide: true
         .games {
             background-color: lightgray;
             padding: 10px;
-            margin: 10px 0;
+            margin: 10px 0
         }
         .games a {
             display: block;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             padding: 10px;
             text-decoration: none;
         }
@@ -74,6 +74,9 @@ hide: true
             padding: 10px 20px;
             margin: 10px;
             cursor: pointer;
+            color: black; 
+            background-color: transparent; 
+            border: 1px solid black; 
         }
         button:hover {
             background-color: #ddd;

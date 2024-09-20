@@ -1,7 +1,7 @@
 --- 
 layout: page
-title: Tools and Setup 
-description: My Journey
+title: Journey
+description: My Journey (Tools and Setup)
 hide: True
 --- 
 
@@ -14,6 +14,9 @@ hide: True
             color: black;
             font-family: 'Calibri', Arial, sans-serif;
             font-size: 20px;
+        }
+        h1 {
+            color: #d9d9d9;
         }
     </style>
 </head>
