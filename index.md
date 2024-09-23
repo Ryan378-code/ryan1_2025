@@ -127,7 +127,7 @@ hide: true
 
     <table>
         <tr>
-            <td><a href="{{ site.baseurl }}/devops/tools/verify">Python Emojis</a></td>
+            <td><a href="{{ site.baseurl }}/devops/tools/verify">Python Emojis + Linking a Jupyter Notebook</a></td>
         </tr>
     </table>
     
