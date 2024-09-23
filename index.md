@@ -127,10 +127,10 @@ hide: true
 
     <table>
         <tr>
-            <td><a href="{{site.baseurl}}/emojis">Python Emojis</a></td>
+            <td><a href="{{site.baseurl}}/emojis">Python Emoji</a></td>
         </tr>
     </table>
-    
+
     <script src="https://utteranc.es/client.js"
         repo="Ryan378-code/ryan1_2025"
         issue-term="pathname"
