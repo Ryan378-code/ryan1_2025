@@ -127,9 +127,10 @@ hide: true
 
     <table>
         <tr>
-            <td><a href="{{site.baseurl}}/2024-9-22-python.ipynb">Python Emojis</a></td>
+            <td><a href="{{site.baseurl}}/2024-9-22-python">Python Emojis</a></td>
         </tr>
     </table>
+    
 
     <script src="https://utteranc.es/client.js"
         repo="Ryan378-code/ryan1_2025"
