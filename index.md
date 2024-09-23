@@ -127,7 +127,7 @@ hide: true
 
     <table>
         <tr>
-            <td><a href="{{site.baseurl}}/emojis">Python Emoji</a></td>
+            <td><a href="{{site.baseurl}}/2024-9-22-python.ipynb">Python Emojis</a></td>
         </tr>
     </table>
 
