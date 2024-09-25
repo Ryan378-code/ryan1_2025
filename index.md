@@ -85,7 +85,7 @@ hide: true
 </head>
 <body>
     <div>
-        <p>The first button takes you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
+        <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
     </div>
     <div>
         <button>This button doesn't do anything. :]</button>
