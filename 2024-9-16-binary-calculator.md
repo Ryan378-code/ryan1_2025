@@ -9,7 +9,6 @@ hide: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decimal to Binary Calculator</title>
 </head>
 <body>
 <h1>Decimal to Binary Calculator</h1>
