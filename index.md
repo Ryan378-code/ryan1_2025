@@ -88,10 +88,10 @@ hide: true
         <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
     </div>
     <div>
-        <button>This button doesn't do anything. :]</button>
+        <button>This button doesn't do anything. :}</button>
     </div>
     <div class="submenu">
-        <a href="https://www.skittles.com/">Skittles Website</a>
+        <a href="https://www.skittles.com/">Skittle Website</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Mystery Button</a>
     </div>
 
