@@ -61,7 +61,7 @@ hide: true
         .games {
             background-color: lightgray;
             padding: 10px;
-            margin: 10px 0
+            margin: 10px 0;
         }
         .games a {
             display: block;
@@ -81,12 +81,33 @@ hide: true
         button:hover {
             background-color: #ddd;
         }
+        /* Styles for tables */
+        table {
+            width: 100%;
+            margin: 10px 0;
+            border-collapse: collapse;
+        }
+        table td {
+            padding: 10px;
+            border: 2px solid darkblue;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+        table td a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        table td a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-     <table>
+    <table>
         <tr>
-            <td><a href="{{ site.baseurl }}/csp/lesson/p3/3-1-4">Lesson 3.1/3.4 Homework</a></td>
+            <td><a href="{{ site.baseurl }}/csp/lesson/p3/3-1">Lesson 3.1/3.4 Homework</a></td>
         </tr>
     </table>
     <div>
