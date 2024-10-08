@@ -106,9 +106,9 @@ hide: true
 </head>
 <body>
     <table>
-        <tr>
-           <td><a href="{{site.baseurl}}/Student_teaches/Lesson_3.1/2024-10-07-lesson-3-1.ipynb">Lesson 3.1/Lesson 3.4 Homework</a></td>
-        </tr>
+    <tr>
+       <td><a href="{{ site.baseurl }}/Student_teaches/lesson-3.1/3-1">Lesson 3.1/Lesson 3.4 Homework</a></td>
+    </tr>
     </table>
     <div>
         <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
