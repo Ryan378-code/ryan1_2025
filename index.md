@@ -107,7 +107,7 @@ hide: true
 <body>
     <table>
     <tr>
-    <td><a href="https://nbviewer.jupyter.org/github/Ryan378-code/ryan1_2025/blob/main/Student_teaches/Lesson_3.1/2024-10-07-lesson-3-1.ipynb">Lesson 3.1/Lesson 3.4 Homework</a></td>
+    <td><a href="https://nbviewer.jupyter.org/github/Ryan378-code/ryan1_2025/raw/main/Student_teaches/Lesson_3.1/2024-10-07-lesson-3-1.ipynb">Lesson 3.1/Lesson 3.4 Homework</a></td>
     </tr>
 
     </table>
