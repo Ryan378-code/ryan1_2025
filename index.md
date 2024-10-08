@@ -84,6 +84,11 @@ hide: true
     </style>
 </head>
 <body>
+     <table>
+        <tr>
+            <td><a href="{{ site.baseurl }}/csp/lesson/p3/3-1-4">Lesson 3.1/3.4 Homework</a></td>
+        </tr>
+    </table>
     <div>
         <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
     </div>
@@ -94,44 +99,35 @@ hide: true
         <a href="https://www.skittles.com/">Skittle Website</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Mystery Button</a>
     </div>
-
     <p>Have fun exploring my pages!</p>
     <div class="gummies">
         <p>These are currently on my mind! I would love to have these right now!</p>
         <img src="https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/qb3lrole0uywupm6pzfl.png" alt="Gummy Skittles" class="gum">
     </div>
-
     <h1>Jupyter Notebook (Emojis!)</h1>
     <div class="submenu">
         <button><a href="https://github.com/Ryan378-code/ryan1_2025/blob/main/2024-09-15-jupyter-notebook-python.ipynb">Emoji Notebook (Hack #1)</a></button>
     </div>
-
     <h1>(Other) Notebooks</h1>
     <div class="submenu">
         <button><a href="notebook1.html">Notebook 1</a></button>
         <button><a href="notebook2.html">Notebook 2</a></button>
         <button><a href="notebook3.html">Notebook 3</a></button>
     </div>
-
     <div id="interesting">
         <h1>Games:</h1>
     </div>
-
     <div class="games">
         <a href="2024-09-15-cookie-clicker.html">Cookie Clicker</a>
         <a href="2024-9-16-binary-calculator.html">Binary Calculator</a>
         <a href="snake-game.html">Snake Game</a>
     </div>
-    
     <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ddabef1-8390-424a-a828-f61e4df3d499/daraj8q-744f0563-d3f2-4a25-98a7-377abba7dc7b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkZGFiZWYxLTgzOTAtNDI0YS1hODI4LWY2MWU0ZGYzZDQ5OVwvZGFyYWo4cS03NDRmMDU2My1kM2YyLTRhMjUtOThhNy0zNzdhYmJhN2RjN2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KpbFWvWcQbuGNwF9TtupLcDKwLRFW8DAZLx404K5bAU" alt="Mario Running" class="mario">
-
     <table>
         <tr>
             <td><a href="{{ site.baseurl }}/devops/tools/verify">Python Emojis + Linking a Jupyter Notebook</a></td>
         </tr>
     </table>
-    
-    
     <script src="https://utteranc.es/client.js"
         repo="Ryan378-code/ryan1_2025"
         issue-term="pathname"
