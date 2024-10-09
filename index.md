@@ -107,9 +107,11 @@ hide: true
 <body>
     <table>
     <tr>
-    <td><a href="https://nbviewer.jupyter.org/github/Ryan378-code/ryan1_2025/raw/main/Student_teaches/Lesson_3.1/2024-10-07-lesson-3-1.ipynb">Lesson 3.1/Lesson 3.4 Homework</a></td>
+        <td><a href="https://nbviewer.jupyter.org/github/Ryan378-code/ryan1_2025/raw/main/Student_teaches/Lesson_3.1/2024-10-07-lesson-3-1.ipynb">Lesson 3.1/Lesson 3.4 Homework</a></td>
     </tr>
-
+    <tr>
+        <td><a href="Student_teaches/Lesson%203.2/2024-10-08-lesson-3-2.html">Lesson 3.2 Homework</a></td>
+    </tr>
     </table>
     <div>
         <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
