@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 
 <html lang="en">
 <head><meta charset="utf-8"/>
@@ -7519,6 +7519,243 @@ permalink: /Student_teaches/lesson-3.1/3-1
 author: Ryan Nguyen 
 ---
 
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="border: 2px solid #336e9c; padding: 10px; border-radius: 5px; text-align: center;">
+<h2> Hacks for Lesson 3.3 (Mathematical Expressions)</h2>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">g</span> <span class="o">+</span> <span class="n">y</span> <span class="c1">##Adds my two parameters, g and y. This is Hack #1 BTW.</span>
+
+<span class="k">def</span> <span class="nf">subtract</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">g</span> <span class="o">-</span> <span class="n">y</span> <span class="c1">##Subtracts my two parameters.</span>
+
+<span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"Error: Division by zero."</span>
+    <span class="k">return</span> <span class="n">g</span> <span class="o">/</span> <span class="n">y</span> <span class="c1">##Dividing my parameters, accounting for dividing by zero not being possible (DNE). </span>
+
+<span class="k">def</span> <span class="nf">modulus</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">g</span> <span class="o">%</span> <span class="n">y</span> <span class="c1">##Modulus function, which divides y into g and provides a remainder. </span>
+
+<span class="k">def</span> <span class="nf">power</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">g</span> <span class="o">**</span> <span class="n">y</span> <span class="c1">##Exponential function, where g is raised to y. </span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>          <span class="c1"># Output: 11</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">subtract</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>     <span class="c1"># Output: 2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">divide</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>       <span class="c1"># Output: 3.0</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">modulus</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>      <span class="c1"># Output: 1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>        <span class="c1"># Output: 8</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>11
+2
+3.0
+1
+8
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">## Hack #2</span>
+
+<span class="k">def</span> <span class="nf">find_point</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span>
+    <span class="k">return</span> <span class="n">y</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">find_point</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>  <span class="c1"># Output: 7, since it plugs 1 into my equation.</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>7
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="border: 2px solid #336e9c; padding: 10px; border-radius: 5px; text-align: center;">
+<h2> Hacks for Lesson 3.5 (Booleans)</h2>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">goOutside</span><span class="p">(</span><span class="n">temperature</span><span class="p">,</span> <span class="n">isRaining</span><span class="p">):</span> <span class="c1">##Defining my function and outlining parameters.</span>
+    <span class="k">if</span> <span class="n">temperature</span> <span class="o">&lt;</span> <span class="mi">100</span> <span class="ow">and</span> <span class="n">isRaining</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">elif</span> <span class="n">temperature</span> <span class="o">&gt;</span> <span class="mi">32</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">isRaining</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">elif</span> <span class="n">temperature</span> <span class="o">&gt;</span> <span class="mi">100</span> <span class="ow">and</span> <span class="n">isRaining</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+    
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="n">goOutside</span><span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="kc">True</span><span class="p">))</span>   <span class="c1"># 90 corresponds to the temperature variable, and True corresponds to the isRaining variable. This should return true. </span>
+<span class="nb">print</span><span class="p">(</span><span class="n">goOutside</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>  <span class="c1">#True.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">goOutside</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>  <span class="c1">#False</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">goOutside</span><span class="p">(</span><span class="mi">110</span><span class="p">,</span> <span class="kc">True</span><span class="p">))</span> <span class="c1">#False. </span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>True
+True
+False
+False
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="nx">javascript</span><span class="w"> </span><span class="c1">// This is still part of Hack 1. This is just in JavaScript. </span>
+
+<span class="kd">function</span><span class="w"> </span><span class="nx">goOutside</span><span class="p">(</span><span class="nx">temperature</span><span class="p">,</span><span class="w"> </span><span class="nx">isRaining</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Defining the function and outlining parameters, just this time in JS.</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">temperature</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">100</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">isRaining</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Making sure to use the AND logical operator, &amp;&amp;. </span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">temperature</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">32</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="nx">isRaining</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">temperature</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">100</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">isRaining</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">goOutside</span><span class="p">(</span><span class="mf">90</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">));</span><span class="w">   </span><span class="c1">// Output: true</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">goOutside</span><span class="p">(</span><span class="mf">50</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">));</span><span class="w">  </span><span class="c1">// Output: true</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">goOutside</span><span class="p">(</span><span class="mf">30</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">));</span><span class="w">  </span><span class="c1">// Output: false</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">goOutside</span><span class="p">(</span><span class="mf">110</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">));</span><span class="w">  </span><span class="c1">// Output: false</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="f5ea54df-d421-4b3b-a1bb-1c1e4d9c918e" tabindex="0">
+<script type="text/javascript">
+var element = document.getElementById('f5ea54df-d421-4b3b-a1bb-1c1e4d9c918e');
+
+function goOutside(temperature, isRaining) { // Defining the function and outlining parameters, just this time in JS.
+    if (temperature < 100 && isRaining) {
+        return true;
+    } else if (temperature > 32 && !isRaining) {
+        return true;
+    } else if (temperature > 100 && isRaining) {
+        return false;
+    } else {
+        return false;
+    }
+}
+
+console.log(goOutside(90, true));   // Output: true
+console.log(goOutside(50, false));  // Output: true
+console.log(goOutside(30, false));  // Output: false
+console.log(goOutside(110, true));  // Output: false
+
+</script>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="nx">javascript</span><span class="w"> </span><span class="c1">// This is hack #2, simplifying expressions.</span>
+
+<span class="kd">let</span><span class="w"> </span><span class="nx">stayInside</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="nx">isRaining</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="o">!</span><span class="nx">isCold</span><span class="p">;</span><span class="w"> </span><span class="c1">// Updated expression for 1, using OR operator.</span>
+
+<span class="kd">let</span><span class="w"> </span><span class="nx">stayInside</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="nx">isRaining</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="nx">isCold</span><span class="p">;</span><span class="w"> </span><span class="c1">// Updated expression for 2, using AND operator.</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>
