@@ -115,6 +115,9 @@ hide: true
     <tr>
         <td><a href="Student_teaches/Lesson 3.3_5/2024-10-09-lesson3-35.html">Lesson 3.3/3.5 Homework</a></td>
     </tr>
+    <tr>
+        <td><a href="Student_teaches/Lesson 3.8/2024-10-10-lesson-3-8.html">Lesson 3.8.1 Homework</a></td>
+    </tr>
     </table>
     <div>
         <p>The first button will take you to the official Skittles website. The other is a mystery. Click it and find out what's in it!</p>
