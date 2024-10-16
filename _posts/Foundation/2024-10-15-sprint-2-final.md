@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint 2 Final Hacks</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -44,9 +43,8 @@
                 this.ctx = this.canvas.getContext('2d');
                 this.spriteImage = new Image();
                 this.spriteImage.src = sprite.src;
-
                 // Ensure the draw function is called only after the image loads
-                this.spriteImage.onload = () => this.draw();
+                this.spriteImage.onload = () => this.startAnimation();
                 this.spriteImage.onerror = () => console.error('Failed to load image:', this.sprite.src);
             }
             // Method to change position based on conditions
@@ -54,12 +52,11 @@
                 const { x, y } = this.sprite.position;
                 const canvasWidth = this.canvas.width;
                 const canvasHeight = this.canvas.height;
-
                 // Move the sprite only if it is within bounds
                 if (x < canvasWidth - this.sprite.size.width && y < canvasHeight - this.sprite.size.height) {
                     // Move the sprite down and to the right
-                    this.sprite.position.x += 10; // Move right by 10
-                    this.sprite.position.y += 10; // Move down by 10
+                    this.sprite.position.x += 1; // Move right by 1 pixel
+                    this.sprite.position.y += 1; // Move down by 1 pixel
                 } else {
                     // If out of bounds, reset position
                     console.log(`Sprite is out of bounds. Resetting position.`);
@@ -69,18 +66,24 @@
             }
             // Method to draw the sprite
             draw() {
-                this.updatePosition(); // Update position before drawing
-                const { x, y } = this.sprite.position;
+                // Clear the canvas before drawing the sprite
+                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
                 // Set the opacity based on brightness
                 this.ctx.globalAlpha = this.sprite.currentBrightness;
 
-                // Clear the canvas before drawing the sprite
-                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-
                 // Draw the sprite
-                this.ctx.drawImage(this.spriteImage, x, y, this.sprite.size.width, this.sprite.size.height);
-                console.log(`Drawing sprite: ${this.sprite.name} at position (${x}, ${y}) with brightness ${this.sprite.currentBrightness}`);
+                this.ctx.drawImage(this.spriteImage, this.sprite.position.x, this.sprite.position.y, this.sprite.size.width, this.sprite.size.height);
+                console.log(`Drawing sprite: ${this.sprite.name} at position (${this.sprite.position.x}, ${this.sprite.position.y}) with brightness ${this.sprite.currentBrightness}`);
+            }
+            // Method to start animation loop
+            startAnimation() {
+                const animate = () => {
+                    this.updatePosition(); // Update position before drawing
+                    this.draw(); // Draw the sprite
+                    requestAnimationFrame(animate); // Request the next animation frame
+                };
+                animate(); // Start the animation loop
             }
 
             // Method to change brightness
@@ -96,16 +99,14 @@
         // Initialize and draw the lamp sprite
         const lamp = new CanvasDrawSprite(lampSprite);
 
-        // Example of changing brightness after 1 second
+        // Change brightness after 1 second
         setTimeout(() => {
             lamp.changeBrightness(1); // Change to 50% brightness
-            lamp.draw(); // Redraw with updated brightness
         }, 1000);
 
-        // Example of changing brightness again after another second
+        // Change brightness again after another second
         setTimeout(() => {
             lamp.changeBrightness(2); // Change to 100% brightness
-            lamp.draw(); // Redraw with updated brightness
         }, 2000);
     </script>
 </body>
