@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +38,6 @@
                 this.ctx = this.canvas.getContext('2d');
                 this.spriteImage = new Image();
                 this.spriteImage.src = sprite.src;
-
                 // Ensure the draw function is called only after the image loads
                 this.spriteImage.onload = () => this.draw();
                 this.spriteImage.onerror = () => console.error('Failed to load image:', this.sprite.src);
@@ -55,3 +53,4 @@
     </script>
 </body>
 </html>
+
